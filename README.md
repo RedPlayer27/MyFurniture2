@@ -1,12 +1,41 @@
-# React + Vite
+🪑 Furniture Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive furniture eCommerce website built with HTML, CSS, and JavaScript. The site features multiple sections including banner, carousel, about, and contact map, designed for seamless display across all screen sizes.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Fully responsive layout for desktop, tablet, and mobile
 
-## Expanding the ESLint configuration
+Interactive banner and carousel components
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+About and contact sections with embedded Google Map
+
+Modular structure (HTML, CSS, JS per component)
+
+Clean, modern UI optimized for readability and accessibility
+
+🧩 Project Structure / ├── index.html ├── css/ │ ├── banner.css │ ├── about.css │ ├── carousel.css │ ├── map.css ├── js/ │ ├── banner.js │ ├── about.js │ ├── carousel.js │ ├── map.js ├── images/ │ └── (site assets) └── README.md
+
+🛠️ Technologies Used
+
+HTML5 for structure
+
+CSS3 / Flexbox / Media Queries for responsive design
+
+JavaScript (ES6) for interactivity
+
+Bootstrap (optional) for grid and layout consistency
+
+📱 Responsive Breakpoints
+
+Laptop L: 1440px
+
+Laptop: 1024px
+
+Tablet: 768px
+
+Mobile L: 425px
+
+Mobile M: 375px
+
+Mobile S: 320px
