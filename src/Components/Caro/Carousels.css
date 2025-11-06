@@ -1,0 +1,162 @@
+/* ========== BASE STYLES ========== */
+.bg1 {
+  background-color: rgb(231, 231, 231);
+}
+
+.caroslide {
+  padding: 100px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.caroslide img {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.f1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.f2 {
+  font-size: 72px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 15px;
+}
+
+.pd1 {
+  margin-top: 40px;
+  background: rgb(255, 112, 4);
+  border: none;
+  padding: 10px 25px;
+  font-size: 1rem;
+  border-radius: 6px;
+}
+
+/* ========== RESPONSIVE BREAKPOINTS ========== */
+
+/* Laptop L (≤1440px) */
+@media (max-width: 1440px) {
+  .f2 {
+    font-size: 64px;
+  }
+}
+
+/* Laptop (≤1024px) */
+@media (max-width: 1024px) {
+  .caroslide {
+    padding: 80px 0;
+  }
+
+  .f2 {
+    font-size: 52px;
+  }
+
+  .f1 {
+    font-size: 22px;
+  }
+
+  .caroslide img {
+    max-width: 400px;
+  }
+}
+
+/* Tablet (≤768px) */
+@media (max-width: 768px) {
+  .caroslide {
+    padding: 60px 0;
+  }
+
+  .caroslide .row {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .caroslide img {
+    max-width: 320px;
+    margin: 20px auto;
+  }
+
+  .f2 {
+    font-size: 42px;
+  }
+
+  .f1 {
+    font-size: 20px;
+  }
+
+  .pd1 {
+    font-size: 0.95rem;
+    padding: 8px 20px;
+  }
+}
+
+/* Mobile L (≤425px) */
+@media (max-width: 425px) {
+  .caroslide {
+    padding: 50px 0;
+  }
+
+  .f2 {
+    font-size: 32px;
+  }
+
+  .f1 {
+    font-size: 18px;
+  }
+
+  .caroslide img {
+    max-width: 250px;
+  }
+
+  .pd1 {
+    margin-top: 25px;
+    font-size: 0.9rem;
+  }
+}
+
+/* Mobile M (≤375px) */
+@media (max-width: 375px) {
+  .f2 {
+    font-size: 28px;
+  }
+
+  .f1 {
+    font-size: 17px;
+  }
+
+  .caroslide img {
+    max-width: 220px;
+  }
+}
+
+/* Mobile S (≤320px) */
+@media (max-width: 320px) {
+  .caroslide {
+    padding: 40px 0;
+  }
+
+  .f2 {
+    font-size: 24px;
+  }
+
+  .f1 {
+    font-size: 16px;
+  }
+
+  .caroslide img {
+    max-width: 200px;
+  }
+
+  .pd1 {
+    font-size: 0.85rem;
+    padding: 6px 18px;
+  }
+}

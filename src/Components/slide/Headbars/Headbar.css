@@ -1,0 +1,38 @@
+.irHEYc {
+    background-color: rgb(47, 51, 58) !important;
+}
+#root a{ 
+    color: white !important;
+    
+}
+.dropdown-item{
+    background-color: rgb(47, 51, 58);
+}
+
+.navbar-brand img{
+    height: 44px;
+    width: 186px; 
+    object-fit: cover;
+    border-radius: 0px; 
+    box-shadow: none;
+}
+
+.ad1{
+    color: aliceblue;
+}
+
+.joy1{margin-top: 10px !important;
+ padding: 0px 10px !important;
+}
+
+ html {
+  scroll-behavior: smooth;
+}
+.dropdown-item:hover {
+  background-color: rgb(58, 63, 72);
+  color: #e6e9ef !important;
+}
+
+#root a:hover {
+  color: #d4a028 !important;
+}
